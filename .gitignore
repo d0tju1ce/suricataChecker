@@ -1,0 +1,21 @@
+# Settings of the computers (computer names, paths) and analyst marks - local, never commit
+*.settings.xml
+*.settings.xml.*
+marks.json
+marks.json.*
+
+# Distribution packages (src\make_dist.ps1)
+dist/
+
+# Build output
+src/bin/
+src/obj/
+*.pdb
+
+# Internal review notes
+docs/Code-Review-*
+
+# Private key of the code signing certificate must never be published
+*.pfx
+*.p12
+*.key

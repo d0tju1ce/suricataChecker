@@ -1,0 +1,9 @@
+* text=auto
+# signed scripts must keep their exact bytes (the Authenticode signature covers them) - no line ending conversion
+*.ps1 -text
+*.exe binary
+*.png binary
+*.ico binary
+*.ttf binary
+*.cer binary
+*.cmd text eol=crlf
